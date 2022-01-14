@@ -5,7 +5,7 @@ and over again, especially for the most common resources. To avoid this constant
 
 [Blog post here](TBC)
 
-
+```
 #!/bin/bash
 
 RESOURCE_GROUP_NAME=tfstate
@@ -20,3 +20,4 @@ az storage account create --resource-group $RESOURCE_GROUP_NAME --name $STORAGE_
 
 # Create blob container
 az storage container create --name $CONTAINER_NAME --account-name $STORAGE_ACCOUNT_NAME
+```
